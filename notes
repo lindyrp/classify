@@ -1,16 +1,28 @@
 notes
-
+DONE:
 establish relationships
 workshop belongs to teacher
-has many students
-
-student can have many workshops
-
-
 define attributes for workshops
 define attributes for students
 
 
-authentication, (user auth)
+WORKING ON:
+workshop has many students -- work out foreign key for students vs users
 
-how to sign up (class reg)
+student can have many workshops
+
+authentication, (user auth) -- finish "roll your own" style
+
+how to sign up
+  a. as user
+  b. register for workshop -- separate feature
+
+bootstrap
+
+user roles for is_admin? (boolean flag on user table)
+
+CRUD for teachers
+CRUD for workshops
+
+
+

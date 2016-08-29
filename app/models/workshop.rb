@@ -1,4 +1,5 @@
 class Workshop < ActiveRecord::Base
   belongs_to :teacher
-  belongs_to :user
+  has_many :users, through: :enrollments
+  has_many :enrollments
 end
