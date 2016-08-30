@@ -6,18 +6,20 @@ define attributes for workshops
 define attributes for students
 
 
+bootstrap
+
+
+
+
 WORKING ON:
-workshop has many students -- work out foreign key for students vs users
-
-student can have many workshops
-
 authentication, (user auth) -- finish "roll your own" style
+
+workshop has many students -- work out foreign key for students vs users
+RELATED: student can have many workshops
 
 how to sign up
   a. as user
   b. register for workshop -- separate feature
-
-bootstrap
 
 user roles for is_admin? (boolean flag on user table)
 
