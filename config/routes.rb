@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/signup', to: 'users#new'
 
+  resources :users
+
   namespace :admin do
     resources :workshops
   end

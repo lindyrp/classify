@@ -12,8 +12,10 @@ gem 'sass-rails'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
+
 # Use CoffeeScript for .js.coffee assets and views
-# gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
@@ -36,6 +38,7 @@ gem 'rails_12factor', group: :production
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
   gem 'factory_girl_rails', '~> 4.0'
+  gem 'byebug'
 end
 
 # Use ActiveModel has_secure_password
