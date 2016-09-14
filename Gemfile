@@ -34,7 +34,7 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.4'
+  gem 'minitest-rails'
   gem 'factory_girl_rails', '~> 4.0'
 end
 
