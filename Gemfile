@@ -6,6 +6,10 @@ gem 'rails', '4.1.9'
 gem 'bcrypt', '3.1.11'
 # Use postgresql as the database for Active Record
 gem 'pg'
+
+# Use Puma for production webserver
+gem 'puma'
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
 
